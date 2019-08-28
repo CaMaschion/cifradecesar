@@ -1,0 +1,43 @@
+body{
+    background: transparent url(../src/parrot-bird-beak-color-black-background.jpg)no-repeat fixed;
+    font-family: 'Pridi', serif;
+    font-size: 25px;
+    color: white;
+    position: center;
+    background-position: left;
+    background-size: cover;
+        
+}
+
+.containercifra{
+    display: flex;
+    justify-content: right;
+    margin-top: -50px;
+    margin-right: 300px;
+    text-align: center;
+   
+}
+
+.result{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+h1 {
+    margin-left: 50px;
+    color: darkolivegreen;
+    font-family: 'Pridi', serif;
+
+}
+
+input{
+    height: 50px;
+
+}
+
+
+

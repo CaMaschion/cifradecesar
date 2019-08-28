@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> </title>
+    <link rel="stylesheet" href="style.css"/>
+    <style>
+      @import url('https://fonts.googleapis.com/css?family=Pridi&display=swap');
+    </style>
+  </head>
+  <body>
+    <div id="root">
+      <h1>Negocie aqui</h1>    
+   </div>
+
+    <div class="containercifra">
+    <form>
+
+        <!--input onde o usuario insere a mensagem-->
+        <p>Envie a mensagem ao comprador:</p>
+        <input type="text" id="msg1"/>
+        <!--input onde o usuario insere a chave do deslocamento -->
+        <p>Quantidade:</p>
+        <input type="number" id="chave1"/>
+        <!-- input do botão cifrar-->
+        <input type="submit" id="cifra" value="enviar">
+        <!--input onde o usuario insere a mensagem--> 
+         <p>Mensagem do vendedor:</p>
+        <input type="text" id="decifra"/>               
+        <!--input onde o usuario insere a chave do deslocamento-->
+        <p>Quantidade:</p>
+        <input type="number" id="chave2"/>
+        <!--input do botão decifrar-->
+        <input type="submit" id="decifradois" value="comprar">
+  
+
+        <div class="result">
+        <div id="resultado"></div>
+        <div id="resultado2"></div>   
+        </div>
+
+  
+      
+    </form>
+  </div>
+     
+      
+      
+    <script src="cipher.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
