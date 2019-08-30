@@ -16,7 +16,13 @@ body{
     margin-left: 1100px;
     position: relative; 
     margin-top: 100px;
+<<<<<<< HEAD
           
+=======
+    width: 400px;
+    height: 400px;
+      
+>>>>>>> 343b9a9690de6c5d8bed9e0c828f9b56b3258105
 }
 
 .result{
