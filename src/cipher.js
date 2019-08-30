@@ -4,10 +4,10 @@ window.cipher = {
 };
 
 function encode(text, offset) { 
-  let resultado = " ";
+  let resultado = "";
   for (let i = 0; i<text.length; i++) { 
     if (text[i].charCodeAt() == 32) {
-      resultado += " ";
+      resultado += "";
     }
 
     else if (text[i].charCodeAt() >= 65 && text[i].charCodeAt() <= 90) {
@@ -22,10 +22,10 @@ function encode(text, offset) {
 }   
    
 function decode(text, offset) {
-  let resultado2 = " ";
+  let resultado2 = "";
   for (let i = 0; i<text.length; i++) {
     if (text[i].charCodeAt() == 32) {
-      resultado2 += " ";
+      resultado2 += "";
     }
 
     else if (text[i].charCodeAt() >= 65 && text[i].charCodeAt() <= 90) {
