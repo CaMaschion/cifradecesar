@@ -1,10 +1,10 @@
 body{
-    background: url(../src/parrot-bird-beak-color-black-background.jpg) no-repeat fixed;
+    background: transparent url(../src/animal-avian-bird-2118607.png) fixed;
     font-family: 'Pridi', serif;
     font-size: 25px;
-    color: white;  
+    color: white;    
     background-position: left;
-    background-size: cover;     
+    background-size: cover;        
             
 }
 
