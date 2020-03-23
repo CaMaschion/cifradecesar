@@ -4,7 +4,7 @@ document.getElementById("decifradois").addEventListener("click", msg2);
 
 function msg() {
   event.preventDefault();
-  //msg1 - frase inserida pelo usuario
+
   let ciframsg = document.getElementById("msg1").value;
   //number chave1 - numero deslocamento
   let chave = Number (document.getElementById("chave1").value);
